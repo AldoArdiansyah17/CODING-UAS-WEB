@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    background-color: #1f0202;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.sidebar {
+    width: 25%;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.profile h2 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.profile p {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-button {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: left;
+    border-radius: 5px;
+    background-color: #0000ff;
+
+}
+
+.nav-button:hover {
+    background-color: #ff7700;
+}
+
+.logout-button {
+    background-color: #ff0404;
+    padding: 15px;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    width: 40%;
+    border-radius: 5px;
+}
+
+.logout-button:hover {
+    background-color: #ff7700;
+}
+
+.main-content {
+    width: 75%;
+    background-color: #0000ff;
+    padding: 40px;
+    border-radius: 5px;
+}
+
+.main-content h2 {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input, select {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.form-buttons {
+    display: flex;
+    border-radius: 50px;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.save-button, .cancel-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.save-button {
+    background-color: #00ff1e;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.save-button:hover {
+    background-color: #ff7700;
+}
+
+.cancel-button {
+    background-color: #ff7700;
+    border: none;
+    color: #fff;
+}
+
+.cancel-button:hover {
+    background-color: #ff7700;
+}
+a {
+    text-decoration: none;
+}
